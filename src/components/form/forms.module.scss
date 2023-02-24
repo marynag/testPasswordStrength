@@ -1,0 +1,36 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.passwordCheacking{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.passwordCheacking div{
+  background-color: #7d8286;
+}
+
+.weak:first-child{
+  background-color: red;
+}
+
+.medium:nth-child(2), .medium:first-child{
+  background-color: yellow ;
+}
+
+.passwordCheacking .strong{
+  background-color: green;
+}
+
+.passwordCheacking .short{
+  background-color: red;
+}
+
+.passwordCheacking div{
+  width: 80px;
+  height: 3px;
+}
