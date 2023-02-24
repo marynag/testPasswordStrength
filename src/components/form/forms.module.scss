@@ -13,6 +13,23 @@
 .passwordCheacking div{
   background-color: #7d8286;
 }
+
+.weak:first-child{
+  background-color: red;
+}
+
+.medium:nth-child(2), .medium:first-child{
+  background-color: yellow ;
+}
+
+.passwordCheacking .strong{
+  background-color: green;
+}
+
+.passwordCheacking .short{
+  background-color: red;
+}
+
 .passwordCheacking div{
   width: 65px;
   height: 3px;
