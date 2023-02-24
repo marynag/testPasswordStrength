@@ -1,0 +1,19 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.passwordCheacking{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.passwordCheacking div{
+  background-color: #7d8286;
+}
+.passwordCheacking div{
+  width: 65px;
+  height: 3px;
+}
